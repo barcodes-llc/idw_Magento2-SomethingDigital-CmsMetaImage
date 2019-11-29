@@ -1,0 +1,9 @@
+<?php
+/** @var \SomethingDigital\CmsMetaImage\Block\OpenGraph\Image $block */
+
+$page = $block->getPage();
+?>
+
+<?php if ($page->getMetaImage()): ?>
+    <meta property="og:image" content="<?= $block->escapeUrl($block->getMetaImageUrl()) ?>" />
+<?php endif; ?>
