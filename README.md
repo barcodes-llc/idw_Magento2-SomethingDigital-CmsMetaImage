@@ -6,7 +6,7 @@ Add Meta Image attribute to CMS Pages.
 
 1. Add repository to `composer.json`
 
-   `composer config repositories.sd-cms-meta-image vcs https://github.com/sdinteractive/Magento2_SomethingDigital_CmsMetaImage.git`
+   `composer config repositories.sd-cms-meta-image git https://github.com/sdinteractive/Magento2_SomethingDigital_CmsMetaImage.git`
 
 1. Install via composer
 
