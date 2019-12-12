@@ -56,6 +56,7 @@ class DataProvider
 
             if ($this->getMediaDirectory()->isExist($filePath)) {
                 $item['meta_image'][0]['name'] = $imageName;
+                $item['meta_image'][0]['file'] = $imageName;
                 $item['meta_image'][0]['url'] = $baseUrl . '/' . $imageName;
                 $item['meta_image'][0]['type'] = 'image';
                 $item['meta_image'][0]['size'] = $this->getMediaDirectory()->stat($filePath)['size'] ?? 0;
