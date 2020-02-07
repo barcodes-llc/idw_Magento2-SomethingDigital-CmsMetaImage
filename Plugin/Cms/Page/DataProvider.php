@@ -41,7 +41,7 @@ class DataProvider
         \Magento\Cms\Model\Page\DataProvider $subject,
         array $result = []
     ) {
-        if (is_null($result)) {
+        if (empty($result)) {
             return $result;
         }
 
