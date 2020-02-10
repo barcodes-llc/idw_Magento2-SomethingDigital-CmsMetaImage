@@ -39,7 +39,7 @@ class DataProvider
      */
     public function afterGetData(
         \Magento\Cms\Model\Page\DataProvider $subject,
-        array $result = []
+        $result
     ) {
         if (empty($result)) {
             return $result;
